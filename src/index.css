@@ -1,13 +1,164 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+nav {
+  display:flex;
+  justify-content: center;
+  gap: 4em;;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+nav ul {
+  display: flex;
+  justify-content:center;
+  list-style: none;
+  font-weight: bold;}
+
+nav li {
+  margin-right: 3em;}
+
+header{
+  display: flex;
+  height: 410px;  
+  padding-right: 20%;
+  justify-content: center;
+  background-color: #495E57;
+  gap: 10vw;
+  margin-bottom: 120px;
+}
+
+header h1 {
+  color: #f4ce14;
+  font-size: 40pt;
+}
+
+header h2 ,p{
+  color: white;}
+
+.LL {
+  margin-left: 20em;
+  height: 20vh;
+}
+
+main  {
+  height: 600px;}
+
+#photo {
+  padding: 2em;
+  border-radius: 10%;
+  width: 25vw;
+  height: 410px;
+  margin-top: 20px;
+}
+p{
+  padding-right: em ;
+  width: 300px;
+}
+.dishes{
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+}  
+button{
+  width: 200px;
+  height: 60px;
+  border-radius: 1em;
+  background-color: #f4ce14;
+  font-weight: bolder;
+  font-size: large;
+}
+.card{
+  width: 265px;
+  height:440px;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+  background-color: #EDEFEE;
+}
+.card img{
+  width: 100%;
+  height: 40%;
+}
+.details{
+  display:flex;
+  justify-content:space-between ;
+  align-items: center;
+  
+  margin-left: 10px;
+  margin-right: 10px; 
+}
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25%
+}
+#dish-image{
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+}
+h3{
+  color:#EE9972;
+}
+article{
+  margin-left: 10px;
+  margin-right: 10px;;
+}
+form{
+  display: grid;
+  
+  width: 20vw;
+  gap: 20px;
+  color: white;
+  font-weight: bold;
+}
+#bookingpage{
+  background-color: #495E57;
+  display: grid;
+  justify-content: center;
+  
+}
+.slogan{
+  display: grid;
+  
+}
+.slogan h1{
+  color: #f4ce14;
+  font-size: 40px;
+  
+  ;
+}
+.slogan .chicago{
+  margin-top: -20px;
+}
+.slogan h2{
+  color: white;
+  
+  }
+.photos {
+    display: flex;
+    gap: 10px;
+  }
+ .photos img {
+  border-radius: 5%;
+  height: 20vh;
+  margin-bottom: 30px;
+}
+.date{
+  display: flex;
+  justify-content: space-between;
+}
+.div {
+  display: grid;
+  width: 148px;
+  gap: 20px
+}
+#lets {
+  justify-self: center;
+  height: 50px;
+}
+form input {
+  height: 30px;
+}
+form select {
+  height: 33px;
+}
+.link .li {
+  text-decoration: none;
+  
 }
