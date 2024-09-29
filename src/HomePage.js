@@ -1,5 +1,5 @@
 import Nav from './Nav';
-import Main from './Main';
+import Main from './Specials';
 import Footer from './Footer';
 import Header from './Header';
 

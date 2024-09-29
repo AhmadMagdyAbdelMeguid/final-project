@@ -1,7 +1,9 @@
 import photo from "./imgs/restauranfood.jpg"
 
+import { useNavigate } from "react-router-dom";
 
 export default function Header(){
+    const navigate = useNavigate();
     return (
         <header className="header">
             <section className="LL">
@@ -11,7 +13,8 @@ export default function Header(){
                 <>
                     <h2>Chicago</h2>
                     <p>we are a family owned Mediterranean restaurants focused on traditional recipes served with modern twist</p>
-                    <button>Reserve a table</button>
+                    <button onClick={()=> {navigate("/booking")}}
+                    >Reserve a table</button>
                 </>
             
             </section>

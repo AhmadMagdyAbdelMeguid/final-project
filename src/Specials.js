@@ -1,7 +1,7 @@
 import photo1 from './imgs/greek salad.jpg'
 import photo2 from './imgs/bruchetta.svg'
 import photo3 from './imgs/lemon dessert.jpg'
-import { ClassNames } from '@emotion/react'
+
 
 export default function Main(){
     return (
